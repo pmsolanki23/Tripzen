@@ -1,0 +1,190 @@
+.navbar {
+    height: auto;
+
+}
+
+.subscribeournews {
+    background-image: url(/image/coverpic.jpg);
+    align-items: normal;
+    background-size: cover;
+    background-position-y: 30%;
+
+}
+
+.wheretotravel {
+    background-color: rgb(5, 4, 41);
+}
+
+.bttn:hover {
+    background-color: rgb(0, 208, 255);
+    border: 1px solid rgb(0, 208, 255);
+}
+
+.btn1:hover {
+    background-color: rgb(255, 78, 78);
+    border: 1px solid rgb(255, 78, 78);
+}
+
+.sec1i:hover {
+    color: rgb(255, 78, 78);
+    transition: 0.2s;
+}
+
+.sec1i:hover small {
+    color: rgb(0, 0, 0);
+}
+
+.c1ov {
+    transition: all 0.3s ease;
+    /* Smooth transition on hover */
+}
+
+.c1ov:hover {
+    background-color: rgba(0, 0, 0, 0.245);
+    /* Example of changing background on hover */
+}
+
+.c1ov p,
+.c1ov button {
+    transition: all 0.3s ease;
+    color: rgb(255, 255, 255);
+}
+
+.c1ov:hover p,
+.c1ov:hover button {
+    color: rgb(255, 78, 78);
+    /* Change text color on hover */
+    transform: scale(1.05);
+    /* Slight scaling effect */
+}
+
+.c1ov:hover button {
+    background-color: rgb(255, 78, 78);
+    /* Change background color of button on hover */
+    border-color: rgb(255, 78, 78);
+    /* Optionally change border color */
+}
+
+
+
+.c2ov {
+    transition: all 0.3s ease;
+}
+
+.c2ov:hover {
+    color: rgb(255, 78, 78);
+    transform: scale(1.04);
+}
+
+.c2ov:hover button {
+    background-color: rgb(255, 78, 78);
+    border-color: rgb(255, 78, 78);
+}
+
+.c2ov p {
+    color: rgb(0, 0, 0);
+}
+
+.navf0 {
+    color: rgb(221, 221, 221);
+    font-size: small;
+    font-weight: bold;
+    transition: 0.3s ease, transform 0.3s ease;
+}
+
+.navf0:hover {
+    transform: translateX(5px);
+}
+
+.navf1 {
+    color: rgb(221, 221, 221);
+    font-size: small;
+    font-weight: bold;
+    transition: 0.3s ease, transform 0.3s ease;
+}
+
+.navf1:hover {
+    color: rgb(247, 37, 37);
+    transform: translateX(5px);
+}
+
+.navf2 {
+    color: rgb(221, 221, 221);
+    font-size: small;
+    font-weight: bold;
+    transition: 0.3s ease, transform 0.3s ease;
+}
+
+
+.navf2:hover {
+    color: rgb(247, 37, 37);
+    transform: translateX(5px);
+}
+
+.icons i {
+    color: azure;
+}
+
+.icons i:hover {
+    color: rgb(247, 37, 37);
+    transition: 0.5s;
+    transform: scale(1.05);
+
+}
+
+.icons0 a i {
+    color: grey;
+}
+
+.icons0 a i:hover {
+    color: rgb(247, 37, 37);
+    font-size: large;
+    transition: ease-in-out;
+    transform: scale(1.05);
+
+}
+
+.nb ul li a:hover {
+    color: rgb(1, 180, 234) !important;
+}
+
+.imfoot1:hover {
+    transform: scale(1.10);
+    transition: 0.5s ease-in-out;
+
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+footer .container {
+    margin-bottom: 0;
+    /* Ensure no extra space below the footer */
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+footer hr {
+    border: 1px solid #555;
+    margin: 10px 0;
+}
+
+.text-center p {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.btn2:hover {
+    background-color: rgb(255, 78, 78);
+    border: 1px solid rgb(255, 78, 78);
+}
+
+.cb h5:hover {
+    color: rgb(255, 78, 78);
+}
