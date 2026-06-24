@@ -41,7 +41,9 @@ export default function Blog({ itemId, notify }) {
   if (itemId) {
     const post = posts.find((item) => item.id === itemId) || posts[0];
     return (
-      <section className="section article-detail">
+      <>
+        <img src={post.image} alt={post.title} style={{ width: "100%", maxHeight: "500px", objectFit: "cover" }} />
+        <section className="section article-detail">
           <article>
             <p className="eyebrow">Tripzen Journal</p>
             <h2>{post.title}</h2>
@@ -60,6 +62,7 @@ export default function Blog({ itemId, notify }) {
           </article>
           <BlogSidebar />
         </section>
+      </>
     );
   }
 
