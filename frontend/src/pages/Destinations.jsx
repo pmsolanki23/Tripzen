@@ -29,7 +29,6 @@ export default function Destinations({ favorites, onFavorite, onPlan }) {
 
   return (
     <>
-      <PageHero title="Destination" image={asset("bradcam2.png")} />
       <TravelSearch onPlan={onPlan} />
       <section className="section destination-layout">
         <aside className="filter-panel">

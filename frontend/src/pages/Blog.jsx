@@ -41,9 +41,7 @@ export default function Blog({ itemId, notify }) {
   if (itemId) {
     const post = posts.find((item) => item.id === itemId) || posts[0];
     return (
-      <>
-        <PageHero title={post.title} image={post.image} />
-        <section className="section article-detail">
+      <section className="section article-detail">
           <article>
             <p className="eyebrow">Tripzen Journal</p>
             <h2>{post.title}</h2>
@@ -62,7 +60,6 @@ export default function Blog({ itemId, notify }) {
           </article>
           <BlogSidebar />
         </section>
-      </>
     );
   }
 
